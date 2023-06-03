@@ -51,8 +51,8 @@ const Navbar = () => {
     ]
   return (
     <div style={{backgroundColor:'blue'}}>
-        <nav class="navbar navbar-expand-md bg-body-tertiary fixed-top mobileRound">
-            <div class="container-fluid flex-nowrap ">
+        <nav class="navbar navbar-expand-md bg-body-secondary fixed-top mobileRound" style={{zIndex:99}}>
+            <div class="container-fluid flex-nowrap">
                 {showLogo ?
                  (<a class="navbar-brand p-0" href="#">
                     <img src={require('./../asset/images/logorm.png')} className='img-fluid logo'  alt=''/>
@@ -65,7 +65,7 @@ const Navbar = () => {
                     <button class="btn btn-dark btn-sm p-1">Get Started</button>
                     <button class="btn btn-light btn-sm p-1">Login</button>
                 </div>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler  btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button> 
                 <div class="collapse navbar-collapse" id="navbarNavDropdown"> 

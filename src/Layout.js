@@ -13,11 +13,11 @@ const Layout = ({ children }) => {
     <>
       <Navbar />
       {/* <NavTab /> */}
-      <Message />
+      {/* <Message /> */}
       <Outlet />
       {/* {children} */}
       <Footer />
-      {/* <CookiesContainer /> */}
+
     </>
   );
 };
