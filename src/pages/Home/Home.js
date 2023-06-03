@@ -19,7 +19,7 @@ const Home = () => {
            }
         </div>
         </div>
-        Home
+           
         </section>
       </section>
   )

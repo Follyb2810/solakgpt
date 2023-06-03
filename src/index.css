@@ -190,10 +190,51 @@
 .App{
   background-color: var(--grey-90);
 }
+/* !hero */
 .hero{
   background-image: linear-gradient(to right top, #ffffff, #e8e2ff, #d3c6ff, #bea9ff, #a98cff, #8f77ea, #7463d6, #5950c2, #3a3f94, #222e67, #121c3b, #010314);
 
 }
+/* !api */
+.api{
+  background-color: var(--bg-body);
+  background-image: linear-gradient(to bottom,var(--bg-body-rgba) 0,var(--bg-body-alt) 40%,var(--bg-body-rgba) 100%),linear-gradient(to top,var(--bg-body-alt) 0,var(--bg-body-rgba) 100%)
+}
+/* !animation */
+.hero h1{
+  font-size: 48px;
+  background-clip: text;
+  background-color: inherit;
+  overflow: hidden;
+    /* display: inline-block; */
+    /* margin: 0 0.5rem; */
+    animation: bounce; 
+    animation-duration: 2s;
+    animation-iteration-count:	infinite;
+  
+  /* color: transparent; */
+}
+.rubberBand{
+  animation: rubberBand;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+.heartBeat{
+  animation: heartBeat;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+.slideInDown{
+  animation: lideInDown;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+.zoomOut{
+  animation:zoomOut;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+/* !Animation end */
 .product{
   background-image: linear-gradient(to left top, #535760, #4b4f58, #434751, #3b3f49, #333742, #323a4e, #313d5a, #2e4066, #2d4f8a, #285db0, #1c6cd7, #007bff)
 }
@@ -243,5 +284,13 @@ color: var(--text-highlight-hover);
   .hover:hover{
     border: 2px solid var(--btn-color-primary);
     border-radius: 10px;
+  }
+  .mobileRound{
+    border: 2px solid var(--grey-70); 
+    padding: 0 var(--token-12) 0 var(--token-20);   
+    background: var(--grey-100);
+    z-index: 100;
+    border-radius: var(--token-40);
+    border: 1px solid var(--grey-70);
   }
 }

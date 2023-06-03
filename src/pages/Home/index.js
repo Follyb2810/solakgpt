@@ -4,6 +4,8 @@ import Home from './Home'
 import Client from './Client'
 import Product from './Product'
 import Banner from './Banner'
+import Solak from './Solak'
+import Api from './Api'
 
 
 const index = () => {
@@ -11,6 +13,8 @@ const index = () => {
     <>
     <Hero/>
     <Client/>
+    <Solak/>
+    <Api/>
     <Home/>
     <Product/>
     <Banner/>    
