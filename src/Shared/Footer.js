@@ -9,7 +9,7 @@ const Footer = () => {
           <div className="row">
               <div className="col-12 col-md-4">
                  <Link to='/'>
-                 <img src={require('./../asset/images/logo.png')} className='img-fluid' width={"200px"} alt=''/>
+                 <img src={require('./../asset/images/log.jpeg')} className='img-fluid' width={"200px"} alt=''/>
                   </Link>
               </div>
               <div className="col-12 col-md-8">
