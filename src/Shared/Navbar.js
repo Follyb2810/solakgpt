@@ -53,7 +53,13 @@ const Navbar = () => {
     <div style={{backgroundColor:'blue'}}>
         <nav class="navbar navbar-expand-md bg-body-tertiary fixed-top mobileRound">
             <div class="container  ">
-                {showLogo ? (<a class="navbar-brand" href="#">SolakGPT</a>):(<a class="navbar-brand d-block d-md-none" href="#">SolakGPT</a>)}
+                {showLogo ?
+                 (<a class="navbar-brand" href="#">
+                    <img src={require('./../asset/images/logo.png')} className='img-fluid' width={"100px"} alt=''/>
+                    </a>):
+                    (<a class="navbar-brand d-block d-md-none" href="#">
+                        <img src={require('./../asset/images/logo.png')} className='img-fluid' width={"100px"} alt=''/>
+                    </a>)}
                 
                 <div className='d-block d-md-none'>
                     <button class="btn btn-dark">Get Started</button>

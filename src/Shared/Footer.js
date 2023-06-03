@@ -8,7 +8,9 @@ const Footer = () => {
        <div className="container text-white py-5">
           <div className="row">
               <div className="col-12 col-md-4">
-                 <h1 > <Link to='/'>SolakGpt</Link></h1>
+                 <Link to='/'>
+                 <img src={require('./../asset/images/logo.png')} className='img-fluid' width={"200px"} alt=''/>
+                  </Link>
               </div>
               <div className="col-12 col-md-8">
                     <div className="row">
