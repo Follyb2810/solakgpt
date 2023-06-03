@@ -1,0 +1,21 @@
+{
+    "1": {
+      "id": 1,
+      "name": "John Doe",
+      "age": 25,
+      "email": "johndoe@example.com"
+    },
+    "2": {
+      "id": 2,
+      "name": "Jane Smith",
+      "age": 30,
+      "email": "janesmith@example.com"
+    },
+    "3": {
+      "id": 3,
+      "name": "Bob Johnson",
+      "age": 28,
+      "email": "bobjohnson@example.com"
+    }
+  }
+  
