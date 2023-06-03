@@ -6,7 +6,7 @@ const Hero = () => {
     <section className='px-0 p-md-4 '>
     <section className='hero rounded-bottom-5'>
         <div className='container'>
-              <div className='row align-items-center' style={{padding:'150px 0 50px'}}>
+              <div className='row align-items-center' style={{padding:'150px 0 50px',overflow:'hidden'}}>
                   <div className='col-12 col-md-6 p-5' style={{overflow:'hidden'}}>
                     <span className='border border-2 rounded-4 px-4 py-1'> <a href='#' className='link animate__animated animate__shakeX'>Cages are now better</a></span>
                     <h1 className='mt-5'>Eliminate The Risk Of Data Breaches</h1>

@@ -3,11 +3,11 @@ import React from 'react'
 const Solak = () => {
   return (
     <section>
-        <div className='container'>
+        <div className='container' style={{overflow:'hidden'}}>
         <hr className='border-4 border-light-subtle my-5' />
         <div className='vstack text-white text-center'>
-             <h1 className='heartBeat'>Solak</h1>
-             <h1 className='rubberBand'>Digital Currency</h1>
+             <h1 className='heartBeat' style={{overflow:'hidden'}}>Solak</h1>
+             <h1 className='rubberBand' style={{overflow:'hidden'}}>Digital Currency</h1>
         <div className='row justify-content-between my-4'>
              <div className='col-12 col-md-4'>
              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
