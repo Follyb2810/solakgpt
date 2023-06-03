@@ -55,10 +55,10 @@ const Navbar = () => {
             <div class="container-fluid flex-nowrap ">
                 {showLogo ?
                  (<a class="navbar-brand p-0" href="#">
-                    <img src={require('./../asset/images/log.jpeg')} className='img-fluid logo'  alt=''/>
+                    <img src={require('./../asset/images/logorm.png')} className='img-fluid logo'  alt=''/>
                     </a>):
                     (<a class="navbar-brand d-block d-md-none p-0" href="#">
-                        <img src={require('./../asset/images/log.jpeg')} className='img-fluid p-0 logo'  alt=''/>
+                        <img src={require('./../asset/images/logorm.png')} className='img-fluid p-0 logo'  alt=''/>
                     </a>)}
                 
                 <div className='d-block d-md-none p-0'>
