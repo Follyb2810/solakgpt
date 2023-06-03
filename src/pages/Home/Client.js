@@ -58,7 +58,7 @@ const Client = () => {
           <div className='row'>
            {
                Clients.map((image,index)=>(
-                <div className='col-4 col-md-3 p-4' key={index}>
+                <div className='col-6 col-md-4 col-lg-3 p-4' key={index}>
                      <img src={image.img} alt={image.img} style={{width:'100px'}}/>
                 
                 </div>

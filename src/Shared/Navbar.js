@@ -52,24 +52,24 @@ const Navbar = () => {
   return (
     <div style={{backgroundColor:'blue'}}>
         <nav class="navbar navbar-expand-md bg-body-tertiary fixed-top mobileRound">
-            <div class="container  ">
+            <div class="container-fluid flex-nowrap ">
                 {showLogo ?
-                 (<a class="navbar-brand" href="#">
-                    <img src={require('./../asset/images/logo.png')} className='img-fluid' width={"100px"} alt=''/>
+                 (<a class="navbar-brand p-0" href="#">
+                    <img src={require('./../asset/images/logo.png')} className='img-fluid logo'  alt=''/>
                     </a>):
-                    (<a class="navbar-brand d-block d-md-none" href="#">
-                        <img src={require('./../asset/images/logo.png')} className='img-fluid' width={"100px"} alt=''/>
+                    (<a class="navbar-brand d-block d-md-none p-0" href="#">
+                        <img src={require('./../asset/images/logo.png')} className='img-fluid p-0 logo'  alt=''/>
                     </a>)}
                 
-                <div className='d-block d-md-none'>
-                    <button class="btn btn-dark">Get Started</button>
-                    <button class="btn btn-light">Login</button>
+                <div className='d-block d-md-none p-0'>
+                    <button class="btn btn-dark btn-sm p-1">Get Started</button>
+                    <button class="btn btn-light btn-sm p-1">Login</button>
                 </div>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button> 
                 <div class="collapse navbar-collapse" id="navbarNavDropdown"> 
-                     <ul class="navbar-nav mx-auto border border-3 text-center rounded-5 p-2 bg-dark">
+                     <ul class="navbar-nav mx-auto border border-3 text-center rounded-5 p-md-2 p-0  bg-dark">
                     {
                         NavList.map((item, index) =>(
                             <li key={index} className='nav-item text-white px-3 py-3 py-md-0 hover'><Link className='link navItem' to={item.path}>{item.page}</Link></li>

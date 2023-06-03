@@ -18,7 +18,7 @@ const Banner = () => {
                 <div className='row justify-content-between'>
                      {
                       bannerData.map((banner, index)=>(
-                        <div className='col-12 col-md-5 rounded-5 p-4 border' key={index}>
+                        <div className='col-12 col-md-5 rounded-5 p-4 border mt-4 mt-md-0' key={index}>
                           <p>{banner.p}</p>
                         </div>
                       ))
